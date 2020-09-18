@@ -55,6 +55,5 @@ console.log(`0 === "": ${0 === ""}`); */
 
 // 상수
 const constant = "변경할 수 없어요";
-//constant = "";
 
 console.log(constant);
