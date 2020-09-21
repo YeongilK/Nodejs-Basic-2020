@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeongilK/Nodejs-Basic-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeongilK/Nodejs-Basic-2020/issues"
+  },
+  "homepage": "https://github.com/YeongilK/Nodejs-Basic-2020#readme",
+  "dependencies": {
+    "moment": "^2.28.0",
+    "moment-timezone": "^0.5.31"
+  }
+}
