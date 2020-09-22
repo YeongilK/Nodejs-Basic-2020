@@ -1,4 +1,4 @@
-//1부터 N까지 제곱의합, 합의제곱
+//1부터 N까지 제곱의 합, 합의 제곱
 
 const readLine = require('readline');
 const rl = readLine.createInterface({
