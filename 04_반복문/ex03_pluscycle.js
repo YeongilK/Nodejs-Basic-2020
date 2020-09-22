@@ -20,10 +20,9 @@ rl.on('line', function(buf) {
         } else {
             newNum = parseInt(num / 10) + (num % 10);
         }
-        //num = (num % 10).toString() + (newNum % 10).toString();
         num = String((num % 10)) + String((newNum % 10));
         num = parseInt(num);
-        
+
         if (num === input) {
             break;
         } 
