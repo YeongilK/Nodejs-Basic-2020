@@ -1,4 +1,4 @@
-function sumDivisor(num) {
+let sumDivisor = num => {
     let result = 0;
     
     // 자기 자신을 제외한 약수들의 합을 구해야 하므로 조건식을 'i<num'으로 설정
