@@ -8,12 +8,11 @@ let products = [
     {name: '수박', price: 5000}
 ];
 
-let html = `<table>
+let html = `<table class="table table-striped">
     <tr>
         <th>품목</th>
         <th>가격</th>
-    </tr>
-`;
+    </tr>`;
 
 for (let item of products) {
     html += `
@@ -22,5 +21,5 @@ for (let item of products) {
         <td>${item.price}</td>
     </tr>`;
 }
-html += '\n</table>'
+html += '\n</table>';
 console.log(html);
