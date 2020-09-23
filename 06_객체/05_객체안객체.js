@@ -14,5 +14,12 @@ let cart = [
     }
 ];
 
-console.log(JSON.stringify(cart));
-console.log(cart[0].product.price);         // '치약' 의 가격
+/* console.log(JSON.stringify(cart));
+console.log(cart[0].product.price);         // '치약' 의 가격 */
+
+// 카트에서 물건 값의 합
+let sum = 0;
+for (let item of cart) {
+    sum += item.product.price * item.quantity;
+}
+console.log(sum);
