@@ -3,7 +3,7 @@
 function getPythaNum () {
     let a, b, c = 0;
 
-    for (a=1; a<500; a++) {
+    for (a=1; a<333; a++) {
         for (b=500; b>a; b--) {
             for (c=1; c<500; c++) {
                 if (c*c === a*a + b*b && a + b + c === 1000) {

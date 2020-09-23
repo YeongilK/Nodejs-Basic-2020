@@ -40,14 +40,6 @@ function getCount(N) {
     return count;
 }
 
-console.log(`***** 1부터 1000까지의 각 숫자의 개수 *****
-0의 개수 : ${getCount(0)}
-1의 개수 : ${getCount(1)}
-2의 개수 : ${getCount(2)}
-3의 개수 : ${getCount(3)}
-4의 개수 : ${getCount(4)}
-5의 개수 : ${getCount(5)}
-6의 개수 : ${getCount(6)}
-7의 개수 : ${getCount(7)}
-8의 개수 : ${getCount(8)}
-9의 개수 : ${getCount(9)}`);
+for (let i=0; i<10; i++) {
+    console.log(`${i}의 개수 : ${getCount(i)}`);
+}
