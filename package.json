@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/YeongilK/Nodejs-Basic-2020#readme",
   "dependencies": {
+<<<<<<< HEAD
     "moment": "^2.29.0",
+=======
+    "async": "^3.2.0",
+    "moment": "^2.28.0",
+>>>>>>> 917078e9ea31ef9f606542fc9e42405412deed0d
     "moment-timezone": "^0.5.31"
   }
 }
