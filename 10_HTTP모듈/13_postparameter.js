@@ -20,7 +20,7 @@ http.createServer((req, res) => {
             console.log(param);
             console.log(param.uid, param.pwd);
             res.end(`<h1>${JSON.stringify(param)}</h1>`);
-        })
+        });
     }
 }).listen(3000, () => {
     console.log('Server running at http://localhost:3000');
